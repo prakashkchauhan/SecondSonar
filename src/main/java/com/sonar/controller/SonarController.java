@@ -8,9 +8,14 @@ public class SonarController {
 
 	@GetMapping("/sonarTest")
 	public String test() {
-		if(true) {
-		    System.out.println("dummy line");
+		if(false) {
+			System.out.println("test");
+			m1();
 		}
 		return "Hello World";
+	}
+
+	private void m1() {
+		System.out.print("method m1");
 	}
 }
