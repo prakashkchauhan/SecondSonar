@@ -18,7 +18,6 @@ class SonarControllerTest {
 	void tearDown() throws Exception {
 	}
 
-	
 	@Test
 	void testTest() {
 		String name = sonarController.test();
